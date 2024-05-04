@@ -10,10 +10,13 @@ function func () {
     iframe.height = iframe.contentWindow.document.body.scrollHeight;
   </script>
   `;
+  
   // or access other parts to add more JS or CSS
+  /*
   const style = w.document.createElement("link");
   link.href = "/path/to.css";
   link.rel = "stylesheet";
   w.document.head.appendChild(style);
-
+  */
+  
 };
