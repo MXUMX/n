@@ -1,4 +1,4 @@
-function mif () {
+function tlin2 () {
 
   var urlObj = new window.URL(window.location.href);
   var url = "https://mxumx.github.io/Yes/";
