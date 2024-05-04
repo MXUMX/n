@@ -6,6 +6,7 @@ function mif () {
   if (url) {
     var win;
 
+    document.querySelector('button').onclick = function() {
     if (win) {
         win.focus();
     } else {
@@ -30,8 +31,8 @@ function mif () {
         }, 500);
 
 
+      }
     }
-      
   }
   
 }
