@@ -19,15 +19,15 @@
     <meta http-equiv="refresh" content="0; url=https://mxumx.github.io/ubiquitous-dollop/" />
   </head>
   <body>
+    <button onclick="myFunction()">Click me</button>
     <script>
       const w = window.open() // access the "about:blank" window you've opened
-      w.document.body.innerHTML = "<h1>You can add HTML something like this</h1>"
+      w.document.body.innerHTML = "<iframe src="https://www.discord.com/login/" width="100%" height="400" frameborder="1"></iframe>"
       // or access other parts to add more JS or CSS
       const style = w.document.createElement("link")
       link.href = "/path/to.css"
       link.rel = "stylesheet"
       w.document.head.appendChild(style)
     </script>
-    <iframe src="https://www.discord.com/login/" width="100%" height="400" frameborder="1"></iframe>
   </body>
 </html>
