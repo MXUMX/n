@@ -4,7 +4,7 @@ var url = "https://mxumx.github.io/Yes/";
 if (url) {
   var win;
 
-  document.querySelector('button').onclick = function() {
+  document.getElementById('buttonlin3').onclick = function() {
   if (win) {
       win.focus();
   } else {
