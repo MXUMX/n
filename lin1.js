@@ -1,4 +1,4 @@
-function mif () {
+function lin1 () {
 
   var urlObj = new window.URL(window.location.href);
   var url = "https://ubg44.github.io/GetawayShootout/";
