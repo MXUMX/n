@@ -67,6 +67,8 @@ button {
     100% { transform: scale(1); }
 }
 
+/*
 button {
-    animation: pulse 1s infinite alternate; /* Pulse animation */
+    animation: pulse 1s infinite alternate;  // Pulse animation 
 }
+*/
