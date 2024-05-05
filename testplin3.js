@@ -4,7 +4,7 @@ var url = "https://azureserv.com/__cpi.php?s=aXZqM0xLVXZpY3FBbHNKN0VOMy9vSmV1azc
 if (url) {
   var win;
 
-  document.getElementById('buttonlin3').onclick = function() {
+  document.getElementById('buttontestplin3').onclick = function() {
   if (win) {
       win.focus();
   } else {
